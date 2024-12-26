@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A single-page HTML CV showcasing education, skills, and career history.">
+    <meta name="keywords" content="HTML, CV, Resume, Education, Skills, Career">
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Your Name's CV" />
+    <meta property="og:description" content="A single-page HTML CV showcasing education, skills, and career history." />
+    <meta property="og:image" content="[url-to-your-image]" />
+    <meta property="og:url" content="[url-to-your-cv]" />
+    <meta property="og:type" content="website" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Your Name's CV</title>
+  </head>
+  <body class="cv-container">
+    <header>
+        <hr>
+        <h1 class="title">Your Name</h1>
+        <h5 class="section-title">Junior Frontend Developer</h5>
+        <div class="section-content">
+          <p>123 Your Street</p>
+          <p>Your City, ST 12345</p>
+          <p>(123)456-7890</p>
+          <p>no-reply@example.com</p>
+        </div>                                                                             
+    </header>
+    <main>
+      <section class="skills" id="skills">
+          <h5 class="section-title">Skills</h5>
+          <p class="section-content">
+            HTML,
+            CSS,
+            JavaScript,
+            Accessibility,
+            Figma to Design,
+            React,
+            Responsive Web Design,
+            Technical Writring,
+            Presentation
+          </p>
+      </section>
+      <section class="education" id="education">
+          <h5 class="section-title">Education</h5>
+          <div class="education-item" id="education-item">
+              <h4 class="subsection-title">School Name,Location-Degree</h4>
+              <div class="section-content">
+                <p>Month 20XX to 20XX</p>
+                <p>List of exciting things you did at university</p>
+              </div>
+          </div>
+      </section>
+      <section class="experience" id="experience">
+          <h2 class="section-title">Experience</h2>
+            <div>
+                <h4 class="subsection-title">Your Company,Location-Job Title</h4>
+                <div class="section-content">
+                  <p>Start Date - End Date</p>
+                  <ul>
+                    <li>Develop and maintain web applications</li>
+                    <li>Collaborate with cross-functional teams</li>
+                    <li>Implement responsive design and user experience</li>
+                  </ul>
+                  <p>Skills:List of skills used or gained at this company</p>
+                </div>
+            </div>
+            <div>
+              <h4 class="subsection-title">Your Company,Location-Job Title</h4>
+                <div class="section-content">
+                    <p>Start Date - End Date</p>
+                    <ul>
+                      <li>Develop and maintain web applications</li>
+                      <li>Collaborate with cross-functional teams</li>
+                      <li>Implement responsive design and user experience</li>
+                    </ul>
+                    <p>Skills:List of skills used or gained at this company</p>
+                </div>
+            </div>
+      </section>
+      <section class="section" id="across-the-internet">
+          <h5 class="section-title">Across the Internet</h5>
+          <p class="section-content">Your GitHub Profile,Your LinkedIn Profile</p>
+      </section>
+    </main>
+  </body>
+</html>
+
+<style lang="css">
+.cv-container {
+  max-width: 800px;
+  margin: 10px;
+  padding: 40px;
+  border: 2px black solid;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.title{
+  font-weight: 500;
+  font-size: 30px;
+}
+.section-title{
+  color: #319f46;
+  font-size: 13px;
+  font-weight: 500;
+}
+.subsection-title{
+  color:#2d7ec7;
+  font-size: 15px;
+  font-weight: 500;
+}
+.section-content{
+  color: #393939;
+  font-size: 14px;
+}
+hr{
+  height: 1.5px;
+  border: 0;
+  background-color: #000000; 
+  margin-right: 50px;
+  align-self: left;
+}
+</style>
+
+
